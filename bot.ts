@@ -96,7 +96,7 @@ bot.on("callback_query:data", async (ctx) => {
         const MessagesList = groupToGetMessages.messages;
         let indexOfMessages = 0;
         ctx.editMessageText(
-          `بازبینی پیام های گروه: ${groupToGetMessages.title}`
+          `بازبینی پیام  های گروه: ${groupToGetMessages.title}`
         );
         const sendMessagesStatus = async (index: number) => {
           if (!(index < MessagesList.length)) {

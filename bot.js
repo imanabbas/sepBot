@@ -70,7 +70,7 @@ bot.on("callback_query:data", (ctx) => __awaiter(void 0, void 0, void 0, functio
                 const groupToGetMessages = (0, storage_1.read)(command.data[0]);
                 const MessagesList = groupToGetMessages.messages;
                 let indexOfMessages = 0;
-                ctx.editMessageText(`بازبینی پیام های گروه: ${groupToGetMessages.title}`);
+                ctx.editMessageText(`بازبینی پیام  های گروه: ${groupToGetMessages.title}`);
                 const sendMessagesStatus = (index) => __awaiter(void 0, void 0, void 0, function* () {
                     if (!(index < MessagesList.length)) {
                         ctx.answerCallbackQuery("done!");

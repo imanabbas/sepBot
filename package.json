@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "dev": "nodemon -x \"npm start\"",
-    "start": "tsc && node bot.js"
+    "dev": "nodemon -x \"npm run build\"",
+    "build": "tsc ",
+    "start": "node bot.js"
   },
   "devDependencies": {
     "@types/jfs": "^0.2.9",
