@@ -1,0 +1,48 @@
+{
+  "id": -1002276283321,
+  "title": "test bot",
+  "messages": [
+    {
+      "date": 1728560284466,
+      "message": "kj;lk;lkl",
+      "readBy": [],
+      "sentTo": [
+        {
+          "id": 278638346,
+          "first_name": "a.b",
+          "username": "ab_bhd",
+          "chat_id": -1002276283321,
+          "read": true,
+          "read_date": 1728560302775
+        },
+        {
+          "id": 278638346,
+          "first_name": "a.b",
+          "username": "ab_bhd",
+          "chat_id": -1002276283321,
+          "read": true,
+          "read_date": 1728560302775
+        }
+      ]
+    }
+  ],
+  "user_connect": {
+    "date": 1728560094,
+    "message_id": 186,
+    "user_count": 3,
+    "conected_user": [
+      {
+        "id": 278638346,
+        "first_name": "a.b",
+        "username": "ab_bhd",
+        "chat_id": -1002276283321
+      },
+      {
+        "id": 278638346,
+        "first_name": "a.b",
+        "username": "ab_bhd",
+        "chat_id": -1002276283321
+      }
+    ]
+  }
+}
