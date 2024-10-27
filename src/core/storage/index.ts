@@ -1,7 +1,7 @@
 import Store from "jfs";
-
-const path = "./core/storage/data";
-const prettyDB = new Store(path, { pretty: true });
+import path from "path";
+const DBpath = path.join(__dirname, "data");
+const prettyDB = new Store(DBpath, { pretty: true });
 
 const read = (key: string | number) => {
   if (typeof key == "number") key = key.toString();

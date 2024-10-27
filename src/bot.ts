@@ -40,7 +40,7 @@ bot.on("callback_query:data", async (ctx) => {
 
     switch (command.query) {
       case "group":
-        const buttonRows = [];
+        const buttonRows: any = [];
         const groupId = command.data[0];
         const step: state = { data: groupId, message: "", step: "ATG" };
         userState[ctx.from.id] = step;
